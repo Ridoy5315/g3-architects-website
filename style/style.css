@@ -6,3 +6,76 @@
   font-weight: 400px;
   font-style: normal;
 }
+
+*{
+     margin: 0;
+     padding: 0;
+}
+
+/* Shared Style */
+.h3-style{
+     font-size: 2.8rem;
+}
+.normal-font-style{
+     font-size: 1rem;
+     color: #727272;
+}
+.btn-primary{
+     background-color: #FF900E;
+     color: white;
+     padding: 16px 25px;
+     font-size: 1rem;
+     border: none;
+     font-weight: 600;
+     border-radius: 10px;
+     margin-top: 30px;
+}
+.display-flex{
+     display: flex;
+}
+
+.dark-01-color{
+     color: #131313;
+}
+.dark-02-color{
+     color: #424242;
+}
+.dark-03-color{
+     color: #727272;
+}
+/* header style */
+.header{
+     padding: 34px;
+     background-color: rgba(255, 144, 14, 0.1);
+}
+/* navbar style */
+.navbar{
+     justify-content: space-between;
+     align-items: center;
+}
+.nav-item{
+     list-style: none;
+     margin-left: 40px;
+}
+.nav-link{
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 18px;
+}
+.navbar, .banner{
+     max-width: 1240px; /*main figma te 1440px deoya ace */
+     margin: 0 auto;
+}
+
+/* banner style */
+.banner-title{
+     font-size: 4rem;
+     margin-bottom: 30px;
+}
+.banner-content{
+     text-align: center;
+     margin: 80px 200px 40px;
+}
+.banner-image{
+     width: 100%
+}
